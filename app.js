@@ -3,6 +3,7 @@ const express = require('express');
 const app = express();
 const recipes = require("./recipes.json")
 const recipesRoute = require('./Routes/recipesRoutes');
+const recipeRoute = require('./Routes/recipeRoute')
 
 
 
@@ -14,6 +15,7 @@ const port = process.env.PORT;
 
 
 app.use(recipesRoute);
+app.use(recipeRoute)
 
 
 
