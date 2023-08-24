@@ -3,8 +3,8 @@ const path = require('path');
 const fs = require('fs');
 
 
-const Data = fs.readFileSync(filePath, 'utf8');
-const filePath = path.join(__dirname, '../recipes.json');
+// const Data = fs.readFileSync(filePath, 'utf8');
+// const filePath = path.join(__dirname, '../recipes.json');
 
 const findRecipe = id => {
     if (!id) return null;

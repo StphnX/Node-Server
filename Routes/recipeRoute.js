@@ -5,7 +5,7 @@ const { Router } = require('express');
 
 const recipeRouter = Router();
 
-recipeRouter.route('/:id').get(getSingleRecipe)
+recipeRouter.route('/recipe/:id').get(getSingleRecipe)
 
 
 module.exports = recipeRouter;
