@@ -2,7 +2,7 @@ const recipes = require('../recipes.json');
 
 const getRecipes = (req, res) => {
     res.send(recipes);
-    console.log(recipes);
+    // console.log(recipes);
 };
 
 
