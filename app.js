@@ -17,7 +17,6 @@ const port = process.env.PORT;
 
 
 app.use(recipesRoute);
-HEAD
 app.use(newRecipeRoute);
 app.use(recipeRoute)
 
